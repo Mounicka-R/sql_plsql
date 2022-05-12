@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\Admin\Desktop\moni9sql\input.txt'
+insert into table dep1 
+fields terminated by ','
+(deptno,detname,country)
